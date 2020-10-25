@@ -8,8 +8,9 @@
   },
   "dependencies": {
     "axios": "^0.20.0",
-    "react": "^16.13.1",
-    "react-dom": "^16.13.1"
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "@adam-beck/use-simple-login": "1.0.0"
   },
   "devDependencies": {
     "@babel/preset-react": "^7.10.4",
@@ -21,8 +22,8 @@
     "@snowpack/web-test-runner-plugin": "^0.1.3",
     "@testing-library/react": "^11.0.0",
     "@types/chai": "^4.2.13",
-    "@types/react": "^16.9.49",
-    "@types/react-dom": "^16.9.8",
+    "@types/react": "^17.0.1",
+    "@types/react-dom": "^17.0.1",
     "@types/snowpack-env": "^2.3.0",
     "@web/test-runner": "^0.9.0",
     "chai": "^4.2.0",
