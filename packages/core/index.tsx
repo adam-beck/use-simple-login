@@ -1,5 +1,4 @@
 import * as React from "react";
-import axios from "axios";
 
 type LoginCredentials = {
   username: string;
@@ -14,8 +13,9 @@ type State<TUser> = {
   login: (credentials: LoginCredentials) => Promise<void>;
 };
 
+type LoginFunction<TUser> = (credentials: LoginCredentials) => Promise<TUser>;
 type BuildArguments<TUser> = {
-  login: string | ((credentials: LoginCredentials) => Promise<TUser>);
+  loginFn: LoginFunction<TUser>;
 };
 
 type Actions<TUser> =
@@ -24,7 +24,7 @@ type Actions<TUser> =
   | { type: "LOGOUT" }
   | { type: "ERROR"; message: string };
 
-function buildAuthenticationContext<TUser>({ login }: BuildArguments<TUser>) {
+function buildAuthenticationContext<TUser>({ loginFn }: BuildArguments<TUser>) {
   function reducer(state: State<TUser>, action: Actions<TUser>): State<TUser> {
     switch (action.type) {
       case "INITIALIZE": {
@@ -69,18 +69,11 @@ function buildAuthenticationContext<TUser>({ login }: BuildArguments<TUser>) {
     children,
     value,
   }: React.ProviderProps<{ onLogin?: () => void }>) => {
-    const defaultLogin = async (credentials: LoginCredentials) => {
-      let user: TUser;
-
+    const login = async (credentials: LoginCredentials) => {
       dispatch({ type: "INITIALIZE" });
 
       try {
-        if (typeof login === "string") {
-          const response = await axios.post(login, credentials);
-          user = response.data.user;
-        } else {
-          user = await login(credentials);
-        }
+        const user = await loginFn(credentials);
 
         dispatch({ type: "SUCCESS", user: user });
 
@@ -95,7 +88,7 @@ function buildAuthenticationContext<TUser>({ login }: BuildArguments<TUser>) {
     const initialState: State<TUser> = {
       isLoading: false,
       status: "uninitialized",
-      login: defaultLogin,
+      login: login,
     };
 
     const [state, dispatch] = React.useReducer(reducer, initialState);
@@ -112,7 +105,7 @@ function buildAuthenticationContext<TUser>({ login }: BuildArguments<TUser>) {
 
     if (context === undefined) {
       throw new Error(
-        "useAuthentication must be used within an AuthenicationProvider"
+        "useAuthentication must be used within an AuthenicationProvider!"
       );
     }
 
@@ -122,4 +115,4 @@ function buildAuthenticationContext<TUser>({ login }: BuildArguments<TUser>) {
   return { AuthenticationProvider, useAuthentication };
 }
 
-export { buildAuthenticationContext, LoginCredentials };
+export { buildAuthenticationContext, LoginCredentials, LoginFunction };

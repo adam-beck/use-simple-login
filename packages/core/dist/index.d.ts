@@ -10,14 +10,15 @@ declare type State<TUser> = {
     error?: string;
     login: (credentials: LoginCredentials) => Promise<void>;
 };
+declare type LoginFunction<TUser> = (credentials: LoginCredentials) => Promise<TUser>;
 declare type BuildArguments<TUser> = {
-    login: string | ((credentials: LoginCredentials) => Promise<TUser>);
+    loginFn: LoginFunction<TUser>;
 };
-declare function buildAuthenticationContext<TUser>({ login }: BuildArguments<TUser>): {
+declare function buildAuthenticationContext<TUser>({ loginFn }: BuildArguments<TUser>): {
     AuthenticationProvider: ({ children, value, }: React.ProviderProps<{
         onLogin?: () => void;
     }>) => JSX.Element;
     useAuthentication: () => State<TUser>;
 };
-export { buildAuthenticationContext, LoginCredentials };
+export { buildAuthenticationContext, LoginCredentials, LoginFunction };
 //# sourceMappingURL=index.d.ts.map

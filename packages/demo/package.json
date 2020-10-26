@@ -1,4 +1,6 @@
 {
+  "name": "demo",
+  "version": "0.0.0",
   "scripts": {
     "start": "snowpack dev",
     "build": "snowpack build",
@@ -7,7 +9,7 @@
     "lint": "prettier --check \"src/**/*.{js,jsx,ts,tsx}\""
   },
   "dependencies": {
-    "axios": "^0.20.0",
+    "@adam-beck/use-simple-login": "1.0.0",
     "react": "^16.13.1",
     "react-dom": "^16.13.1"
   },

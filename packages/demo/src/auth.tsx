@@ -1,4 +1,4 @@
-import { buildAuthenticationContext, LoginCredentials } from './lib';
+import { buildAuthenticationContext, LoginCredentials } from '@adam-beck/use-simple-login';
 
 interface User {
   username: string;
@@ -22,7 +22,7 @@ const {
   AuthenticationProvider,
   useAuthentication,
 } = buildAuthenticationContext({
-  login: mockGetUser,
+  loginFn: mockGetUser,
 });
 
 export { AuthenticationProvider, useAuthentication };

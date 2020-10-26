@@ -1,6 +1,6 @@
+import { jsx as _jsx } from "react/jsx-runtime";
 import * as React from "react";
-import axios from "axios";
-function buildAuthenticationContext({ login }) {
+function buildAuthenticationContext({ loginFn }) {
     function reducer(state, action) {
         switch (action.type) {
             case "INITIALIZE": {
@@ -38,17 +38,10 @@ function buildAuthenticationContext({ login }) {
     }
     const AuthenticationContext = React.createContext(undefined);
     const AuthenticationProvider = ({ children, value, }) => {
-        const defaultLogin = async (credentials) => {
-            let user;
+        const login = async (credentials) => {
             dispatch({ type: "INITIALIZE" });
             try {
-                if (typeof login === "string") {
-                    const response = await axios.post(login, credentials);
-                    user = response.data.user;
-                }
-                else {
-                    user = await login(credentials);
-                }
+                const user = await loginFn(credentials);
                 dispatch({ type: "SUCCESS", user: user });
                 if (value.onLogin) {
                     value.onLogin();
@@ -61,18 +54,19 @@ function buildAuthenticationContext({ login }) {
         const initialState = {
             isLoading: false,
             status: "uninitialized",
-            login: defaultLogin,
+            login: login,
         };
         const [state, dispatch] = React.useReducer(reducer, initialState);
-        return (React.createElement(AuthenticationContext.Provider, { value: state }, children));
+        return (_jsx(AuthenticationContext.Provider, Object.assign({ value: state }, { children: children }), void 0));
     };
     const useAuthentication = () => {
         const context = React.useContext(AuthenticationContext);
         if (context === undefined) {
-            throw new Error("useAuthentication must be used within an AuthenicationProvider");
+            throw new Error("useAuthentication must be used within an AuthenicationProvider!");
         }
         return context;
     };
     return { AuthenticationProvider, useAuthentication };
 }
 export { buildAuthenticationContext };
+//# sourceMappingURL=index.js.map
