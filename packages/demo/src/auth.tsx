@@ -1,4 +1,8 @@
-import { buildAuthenticationContext, LoginCredentials } from '@adam-beck/use-simple-login';
+import {
+  buildAuthenticationContext,
+  LoginCredentials,
+} from '@adam-beck/use-simple-login';
+import { useEffect, useState } from 'react';
 
 interface User {
   username: string;
@@ -25,4 +29,23 @@ const {
   loginFn: mockGetUser,
 });
 
-export { AuthenticationProvider, useAuthentication };
+function AmsAuthenticationProvider({ children }: React.PropsWithChildren<{}>) {
+  const [refreshTime, setRefreshTime] = useState(1000 * 60 * 5);
+
+  useEffect(() => {
+    //after refreshTime make a refresh request
+    console.log('Current Time To Refresh', refreshTime);
+  }, [refreshTime]);
+
+  const onLogIn = (user: User) => {
+    setRefreshTime(69);
+  };
+
+  return (
+    <AuthenticationProvider value={{ onLogin: onLogIn }}>
+      {children}
+    </AuthenticationProvider>
+  );
+}
+
+export { AmsAuthenticationProvider, useAuthentication };

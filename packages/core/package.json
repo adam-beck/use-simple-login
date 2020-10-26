@@ -17,6 +17,7 @@
     "react": "^17.0.0 || ^16.5.0"
   },
   "dependencies": {
-    "axios": "^0.20.0"
+    "axios": "^0.20.0",
+    "react-idle-timer": "^4.4.1"
   }
 }

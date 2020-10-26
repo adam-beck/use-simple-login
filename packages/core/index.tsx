@@ -13,7 +13,9 @@ type State<TUser> = {
   login: (credentials: LoginCredentials) => Promise<void>;
 };
 
-type LoginFunction<TUser> = (credentials: LoginCredentials) => Promise<TUser>;
+type LoginFunction<TUser> = (
+  credentials: LoginCredentials
+) => Promise<TUser> | TUser;
 type BuildArguments<TUser> = {
   loginFn: LoginFunction<TUser>;
 };
@@ -68,7 +70,7 @@ function buildAuthenticationContext<TUser>({ loginFn }: BuildArguments<TUser>) {
   const AuthenticationProvider = ({
     children,
     value,
-  }: React.ProviderProps<{ onLogin?: () => void }>) => {
+  }: React.ProviderProps<{ onLogin?: (user: TUser) => void }>) => {
     const login = async (credentials: LoginCredentials) => {
       dispatch({ type: "INITIALIZE" });
 
@@ -78,7 +80,7 @@ function buildAuthenticationContext<TUser>({ loginFn }: BuildArguments<TUser>) {
         dispatch({ type: "SUCCESS", user: user });
 
         if (value.onLogin) {
-          value.onLogin();
+          value.onLogin(user);
         }
       } catch (e: unknown) {
         dispatch({ type: "ERROR", message: "ERROR HAPPENED" });
