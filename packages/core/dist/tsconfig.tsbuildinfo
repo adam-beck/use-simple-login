@@ -261,14 +261,14 @@
         "signature": "28deeb030b448dd136ffbf6d66485b641c14f4282f75eb6704e1eef151bb5b19",
         "affectsGlobalScope": false
       },
+      "../../../node_modules/@types/anymatch/index.d.ts": {
+        "version": "48b52264fa193879a074197839dbb4796fa07e86350ff888e5361e06aa46df76",
+        "signature": "48b52264fa193879a074197839dbb4796fa07e86350ff888e5361e06aa46df76",
+        "affectsGlobalScope": false
+      },
       "../../../node_modules/@types/aria-query/index.d.ts": {
         "version": "17ce4c8c90dd63282e4ff0d6a90fb4c86244293d77a1eaa23947dbe4e8b66eb5",
         "signature": "17ce4c8c90dd63282e4ff0d6a90fb4c86244293d77a1eaa23947dbe4e8b66eb5",
-        "affectsGlobalScope": false
-      },
-      "../../../node_modules/@types/babel__code-frame/index.d.ts": {
-        "version": "94fd3f3e6a69a594a15a1b1d1f200688105ef344661d2dca799872c43443be90",
-        "signature": "94fd3f3e6a69a594a15a1b1d1f200688105ef344661d2dca799872c43443be90",
         "affectsGlobalScope": false
       },
       "../../../node_modules/@babel/types/lib/index.d.ts": {
@@ -299,6 +299,26 @@
       "../../../node_modules/@types/babel__core/index.d.ts": {
         "version": "7df3163944694feeac63067632a8dc2e2dea1350119ec8b43df277af69198369",
         "signature": "7df3163944694feeac63067632a8dc2e2dea1350119ec8b43df277af69198369",
+        "affectsGlobalScope": false
+      },
+      "../../../node_modules/@types/eslint/helpers.d.ts": {
+        "version": "f345b0888d003fd69cb32bad3a0aa04c615ccafc572019e4bd86a52bd5e49e46",
+        "signature": "f345b0888d003fd69cb32bad3a0aa04c615ccafc572019e4bd86a52bd5e49e46",
+        "affectsGlobalScope": true
+      },
+      "../../../node_modules/@types/json-schema/index.d.ts": {
+        "version": "b2be568d8ce95fcb26eebd04c035d94825655fdf689bf67d799f5ff8cbbb1024",
+        "signature": "b2be568d8ce95fcb26eebd04c035d94825655fdf689bf67d799f5ff8cbbb1024",
+        "affectsGlobalScope": false
+      },
+      "../../../node_modules/@types/estree/index.d.ts": {
+        "version": "6a38e250306ceccbab257d11b846d5bd12491157d20901fa01afe4050c93c1b5",
+        "signature": "6a38e250306ceccbab257d11b846d5bd12491157d20901fa01afe4050c93c1b5",
+        "affectsGlobalScope": false
+      },
+      "../../../node_modules/@types/eslint/index.d.ts": {
+        "version": "be337886c0b7b94a0cec462da9d6136abfda99d51b4cd67830351cd691285387",
+        "signature": "be337886c0b7b94a0cec462da9d6136abfda99d51b4cd67830351cd691285387",
         "affectsGlobalScope": false
       },
       "../../../node_modules/@types/node/globals.d.ts": {
@@ -372,8 +392,8 @@
         "affectsGlobalScope": false
       },
       "../../../node_modules/@types/node/http.d.ts": {
-        "version": "79b6735c4559abf8d9a8b134ada5368f0db4a2084bd1f6dd93b5829d4686baff",
-        "signature": "79b6735c4559abf8d9a8b134ada5368f0db4a2084bd1f6dd93b5829d4686baff",
+        "version": "35fe02b2c10616cc7ac3db9c15778df7ed9c99276889efdd9be31f342841cfcd",
+        "signature": "35fe02b2c10616cc7ac3db9c15778df7ed9c99276889efdd9be31f342841cfcd",
         "affectsGlobalScope": false
       },
       "../../../node_modules/@types/node/http2.d.ts": {
@@ -536,39 +556,24 @@
         "signature": "5825520e2099309182c6e2a2b3061b060d42a098c58f67d1754880a7e2cce99a",
         "affectsGlobalScope": false
       },
-      "../../../node_modules/@types/keyv/index.d.ts": {
-        "version": "9e7f7ac4d964992cf1b77612ca07e5695821881aa1a9acb0ef0509f192a5ea23",
-        "signature": "9e7f7ac4d964992cf1b77612ca07e5695821881aa1a9acb0ef0509f192a5ea23",
+      "../../../node_modules/@types/minimatch/index.d.ts": {
+        "version": "1d1e6bd176eee5970968423d7e215bfd66828b6db8d54d17afec05a831322633",
+        "signature": "1d1e6bd176eee5970968423d7e215bfd66828b6db8d54d17afec05a831322633",
         "affectsGlobalScope": false
       },
-      "../../../node_modules/@types/http-cache-semantics/index.d.ts": {
-        "version": "0bf440ab914e79e890cb15e5ffacb5e18bec678338b3eab069a5829d3d5c96e3",
-        "signature": "0bf440ab914e79e890cb15e5ffacb5e18bec678338b3eab069a5829d3d5c96e3",
-        "affectsGlobalScope": false
-      },
-      "../../../node_modules/@types/responselike/index.d.ts": {
-        "version": "3cfb0cb51cc2c2e1b313d7c4df04dbf7e5bda0a133c6b309bf6af77cf614b971",
-        "signature": "3cfb0cb51cc2c2e1b313d7c4df04dbf7e5bda0a133c6b309bf6af77cf614b971",
-        "affectsGlobalScope": false
-      },
-      "../../../node_modules/@types/cacheable-request/index.d.ts": {
-        "version": "73c05cca1bb5aa8e93efd089af51643b7ff005e47064a0e624a74ee20480a2eb",
-        "signature": "73c05cca1bb5aa8e93efd089af51643b7ff005e47064a0e624a74ee20480a2eb",
-        "affectsGlobalScope": false
-      },
-      "../../../node_modules/@types/chai/index.d.ts": {
-        "version": "2d65af67144ac8a3e835ba0bff8cd0c86ca7af3ade64ca13eab6ef42c3bd54de",
-        "signature": "2d65af67144ac8a3e835ba0bff8cd0c86ca7af3ade64ca13eab6ef42c3bd54de",
-        "affectsGlobalScope": true
-      },
-      "../../../node_modules/@types/estree/index.d.ts": {
-        "version": "89ccbe04e737ce613f5f04990271cfa84901446350b8551b0555ddf19319723b",
-        "signature": "89ccbe04e737ce613f5f04990271cfa84901446350b8551b0555ddf19319723b",
+      "../../../node_modules/@types/glob/index.d.ts": {
+        "version": "393137c76bd922ba70a2f8bf1ade4f59a16171a02fb25918c168d48875b0cfb0",
+        "signature": "393137c76bd922ba70a2f8bf1ade4f59a16171a02fb25918c168d48875b0cfb0",
         "affectsGlobalScope": false
       },
       "../../../node_modules/@types/graceful-fs/index.d.ts": {
         "version": "cb6cf0480ee1aa9f706db1f6f5add596a1aa10e8c4beb1817f2318384ba684dc",
         "signature": "cb6cf0480ee1aa9f706db1f6f5add596a1aa10e8c4beb1817f2318384ba684dc",
+        "affectsGlobalScope": false
+      },
+      "../../../node_modules/@types/html-minifier-terser/index.d.ts": {
+        "version": "6767cce098e1e6369c26258b7a1f9e569c5467d501a47a090136d5ea6e80ae6d",
+        "signature": "6767cce098e1e6369c26258b7a1f9e569c5467d501a47a090136d5ea6e80ae6d",
         "affectsGlobalScope": false
       },
       "../../../node_modules/@types/istanbul-lib-coverage/index.d.ts": {
@@ -586,54 +591,174 @@
         "signature": "905c3e8f7ddaa6c391b60c05b2f4c3931d7127ad717a080359db3df510b7bdab",
         "affectsGlobalScope": false
       },
-      "../../../node_modules/@types/mocha/index.d.ts": {
-        "version": "060f0636cb83057f9a758cafc817b7be1e8612c4387dfe3fbadda865958cf8c1",
-        "signature": "060f0636cb83057f9a758cafc817b7be1e8612c4387dfe3fbadda865958cf8c1",
+      "../../../node_modules/jest-diff/build/cleanupSemantic.d.ts": {
+        "version": "d8aab31ba8e618cc3eea10b0945de81cb93b7e8150a013a482332263b9305322",
+        "signature": "d8aab31ba8e618cc3eea10b0945de81cb93b7e8150a013a482332263b9305322",
+        "affectsGlobalScope": false
+      },
+      "../../../node_modules/jest-diff/build/types.d.ts": {
+        "version": "69da61a7b5093dac77fa3bec8be95dcf9a74c95a0e9161edb98bb24e30e439d2",
+        "signature": "69da61a7b5093dac77fa3bec8be95dcf9a74c95a0e9161edb98bb24e30e439d2",
+        "affectsGlobalScope": false
+      },
+      "../../../node_modules/jest-diff/build/diffLines.d.ts": {
+        "version": "561eca7a381b96d6ccac6e4061e6d2ae53f5bc44203f3fd9f5b26864c32ae6e9",
+        "signature": "561eca7a381b96d6ccac6e4061e6d2ae53f5bc44203f3fd9f5b26864c32ae6e9",
+        "affectsGlobalScope": false
+      },
+      "../../../node_modules/jest-diff/build/printDiffs.d.ts": {
+        "version": "62ea38627e3ebab429f7616812a9394d327c2bc271003dfba985de9b4137369f",
+        "signature": "62ea38627e3ebab429f7616812a9394d327c2bc271003dfba985de9b4137369f",
+        "affectsGlobalScope": false
+      },
+      "../../../node_modules/jest-diff/build/index.d.ts": {
+        "version": "b4439890c168d646357928431100daac5cbdee1d345a34e6bf6eca9f3abe22bc",
+        "signature": "b4439890c168d646357928431100daac5cbdee1d345a34e6bf6eca9f3abe22bc",
+        "affectsGlobalScope": false
+      },
+      "../../../node_modules/pretty-format/build/types.d.ts": {
+        "version": "5d72971a459517c44c1379dab9ed248e87a61ba0a1e0f25c9d67e1e640cd9a09",
+        "signature": "5d72971a459517c44c1379dab9ed248e87a61ba0a1e0f25c9d67e1e640cd9a09",
+        "affectsGlobalScope": false
+      },
+      "../../../node_modules/pretty-format/build/index.d.ts": {
+        "version": "02d734976af36f4273d930bea88b3e62adf6b078cf120c1c63d49aa8d8427c5c",
+        "signature": "02d734976af36f4273d930bea88b3e62adf6b078cf120c1c63d49aa8d8427c5c",
+        "affectsGlobalScope": false
+      },
+      "../../../node_modules/@types/jest/index.d.ts": {
+        "version": "480dcf599750efc664ba6edba1ed91fb5761ef5ae0e45e475b69a994e312db73",
+        "signature": "480dcf599750efc664ba6edba1ed91fb5761ef5ae0e45e475b69a994e312db73",
         "affectsGlobalScope": true
+      },
+      "../../../node_modules/@types/json5/index.d.ts": {
+        "version": "96d14f21b7652903852eef49379d04dbda28c16ed36468f8c9fa08f7c14c9538",
+        "signature": "96d14f21b7652903852eef49379d04dbda28c16ed36468f8c9fa08f7c14c9538",
+        "affectsGlobalScope": false
+      },
+      "../../../node_modules/@types/normalize-package-data/index.d.ts": {
+        "version": "c9ad058b2cc9ce6dc2ed92960d6d009e8c04bef46d3f5312283debca6869f613",
+        "signature": "c9ad058b2cc9ce6dc2ed92960d6d009e8c04bef46d3f5312283debca6869f613",
+        "affectsGlobalScope": false
       },
       "../../../node_modules/@types/parse-json/index.d.ts": {
         "version": "2b8264b2fefd7367e0f20e2c04eed5d3038831fe00f5efbc110ff0131aab899b",
         "signature": "2b8264b2fefd7367e0f20e2c04eed5d3038831fe00f5efbc110ff0131aab899b",
         "affectsGlobalScope": false
       },
-      "../../../node_modules/@types/puppeteer/Errors.d.ts": {
-        "version": "24074eb89fe21d5d7d8a5ed86e6c56939cf32d533f68bae213b0cdac74e03d3b",
-        "signature": "24074eb89fe21d5d7d8a5ed86e6c56939cf32d533f68bae213b0cdac74e03d3b",
+      "../../../node_modules/@types/prettier/index.d.ts": {
+        "version": "7403a1397d48771d58d55c603d0c51aa3d4cd6467bca03140f085fdc432eb912",
+        "signature": "7403a1397d48771d58d55c603d0c51aa3d4cd6467bca03140f085fdc432eb912",
         "affectsGlobalScope": false
       },
-      "../../../node_modules/@types/puppeteer/DeviceDescriptors.d.ts": {
-        "version": "c9c23a4476436315c1a675f807128457b5aeadc8d3d75340e1f4b93af73551ce",
-        "signature": "c9c23a4476436315c1a675f807128457b5aeadc8d3d75340e1f4b93af73551ce",
-        "affectsGlobalScope": false
-      },
-      "../../../node_modules/@types/puppeteer/index.d.ts": {
-        "version": "c65b3f931726d33c700346b1c6aad062afee60691b450cf1d2ca208fc92c11c9",
-        "signature": "c65b3f931726d33c700346b1c6aad062afee60691b450cf1d2ca208fc92c11c9",
-        "affectsGlobalScope": false
-      },
-      "../../../node_modules/@types/puppeteer-core/index.d.ts": {
-        "version": "78daabf1f7d99c6b37a7fd4834f4eb0cb4c2e1401573bdfe9f0bca5fd36bf59a",
-        "signature": "78daabf1f7d99c6b37a7fd4834f4eb0cb4c2e1401573bdfe9f0bca5fd36bf59a",
-        "affectsGlobalScope": false
-      },
-      "../../../node_modules/@types/react-dom/index.d.ts": {
-        "version": "8483a29c17f7feb768a1f4333cf12ccf1e7341bd89dadcf407e012d5315228d0",
-        "signature": "8483a29c17f7feb768a1f4333cf12ccf1e7341bd89dadcf407e012d5315228d0",
+      "../../../node_modules/@types/q/index.d.ts": {
+        "version": "f9a2dd6a6084665f093ed0e9664b8e673be2a45e342a59dd4e0e4e552e68a9ad",
+        "signature": "f9a2dd6a6084665f093ed0e9664b8e673be2a45e342a59dd4e0e4e552e68a9ad",
         "affectsGlobalScope": false
       },
       "../../../node_modules/@types/resolve/index.d.ts": {
-        "version": "8a19491eba2108d5c333c249699f40aff05ad312c04a17504573b27d91f0aede",
-        "signature": "8a19491eba2108d5c333c249699f40aff05ad312c04a17504573b27d91f0aede",
+        "version": "2880728492d6a6baa55411d14cc42fa55714a24b1d1d27ff9a8a610abd47c761",
+        "signature": "2880728492d6a6baa55411d14cc42fa55714a24b1d1d27ff9a8a610abd47c761",
         "affectsGlobalScope": false
       },
-      "../../../node_modules/@types/snowpack-env/index.d.ts": {
-        "version": "65c2d3bdf0156535c7a40f2d5c44dd989600ca4c1128a1dbfc5edbc022889929",
-        "signature": "65c2d3bdf0156535c7a40f2d5c44dd989600ca4c1128a1dbfc5edbc022889929",
+      "../../../node_modules/@types/source-list-map/index.d.ts": {
+        "version": "67fc055eb86a0632e2e072838f889ffe1754083cb13c8c80a06a7d895d877aae",
+        "signature": "67fc055eb86a0632e2e072838f889ffe1754083cb13c8c80a06a7d895d877aae",
+        "affectsGlobalScope": false
+      },
+      "../../../node_modules/@types/stack-utils/index.d.ts": {
+        "version": "c6c4fea9acc55d5e38ff2b70d57ab0b5cdbd08f8bc5d7a226e322cea128c5b57",
+        "signature": "c6c4fea9acc55d5e38ff2b70d57ab0b5cdbd08f8bc5d7a226e322cea128c5b57",
+        "affectsGlobalScope": false
+      },
+      "../../../node_modules/@types/tapable/index.d.ts": {
+        "version": "d558a0fe921ebcc88d3212c2c42108abf9f0d694d67ebdeba37d7728c044f579",
+        "signature": "d558a0fe921ebcc88d3212c2c42108abf9f0d694d67ebdeba37d7728c044f579",
+        "affectsGlobalScope": false
+      },
+      "../../../node_modules/@types/testing-library__jest-dom/index.d.ts": {
+        "version": "d196da9c61a0bec85db6f6ee9b1f46781d25e0627b1d2bedcaeea8ebb1749559",
+        "signature": "d196da9c61a0bec85db6f6ee9b1f46781d25e0627b1d2bedcaeea8ebb1749559",
         "affectsGlobalScope": true
       },
-      "../../../node_modules/@types/ws/index.d.ts": {
-        "version": "30ce0ba2c80c39007ab8e0132807437b4eb58ff73461e1602e2e2bf07b6416ed",
-        "signature": "30ce0ba2c80c39007ab8e0132807437b4eb58ff73461e1602e2e2bf07b6416ed",
+      "../../../node_modules/source-map/source-map.d.ts": {
+        "version": "2887592574fcdfd087647c539dcb0fbe5af2521270dad4a37f9d17c16190d579",
+        "signature": "2887592574fcdfd087647c539dcb0fbe5af2521270dad4a37f9d17c16190d579",
+        "affectsGlobalScope": false
+      },
+      "../../../node_modules/@types/uglify-js/index.d.ts": {
+        "version": "530d0618491a50ab5aedbb42374af28560c319c1997d238a0c8053ca8d00685d",
+        "signature": "530d0618491a50ab5aedbb42374af28560c319c1997d238a0c8053ca8d00685d",
+        "affectsGlobalScope": false
+      },
+      "../../../node_modules/@types/webpack-sources/node_modules/source-map/source-map.d.ts": {
+        "version": "b90c59ac4682368a01c83881b814738eb151de8a58f52eb7edadea2bcffb11b9",
+        "signature": "b90c59ac4682368a01c83881b814738eb151de8a58f52eb7edadea2bcffb11b9",
+        "affectsGlobalScope": false
+      },
+      "../../../node_modules/@types/webpack-sources/lib/Source.d.ts": {
+        "version": "8560a87b2e9f8e2c3808c8f6172c9b7eb6c9b08cb9f937db71c285ecf292c81d",
+        "signature": "8560a87b2e9f8e2c3808c8f6172c9b7eb6c9b08cb9f937db71c285ecf292c81d",
+        "affectsGlobalScope": false
+      },
+      "../../../node_modules/@types/webpack-sources/lib/CompatSource.d.ts": {
+        "version": "ffe3931ff864f28d80ae2f33bd11123ad3d7bad9896b910a1e61504cc093e1f5",
+        "signature": "ffe3931ff864f28d80ae2f33bd11123ad3d7bad9896b910a1e61504cc093e1f5",
+        "affectsGlobalScope": false
+      },
+      "../../../node_modules/@types/webpack-sources/lib/ConcatSource.d.ts": {
+        "version": "083c1bd82f8dc3a1ed6fc9e8eaddf141f7c05df418eca386598821e045253af9",
+        "signature": "083c1bd82f8dc3a1ed6fc9e8eaddf141f7c05df418eca386598821e045253af9",
+        "affectsGlobalScope": false
+      },
+      "../../../node_modules/@types/webpack-sources/lib/OriginalSource.d.ts": {
+        "version": "274ebe605bd7f71ce161f9f5328febc7d547a2929f803f04b44ec4a7d8729517",
+        "signature": "274ebe605bd7f71ce161f9f5328febc7d547a2929f803f04b44ec4a7d8729517",
+        "affectsGlobalScope": false
+      },
+      "../../../node_modules/@types/webpack-sources/lib/PrefixSource.d.ts": {
+        "version": "6ca0207e70d985a24396583f55836b10dc181063ab6069733561bfde404d1bad",
+        "signature": "6ca0207e70d985a24396583f55836b10dc181063ab6069733561bfde404d1bad",
+        "affectsGlobalScope": false
+      },
+      "../../../node_modules/@types/webpack-sources/lib/RawSource.d.ts": {
+        "version": "5908142efeaab38ffdf43927ee0af681ae77e0d7672b956dfb8b6c705dbfe106",
+        "signature": "5908142efeaab38ffdf43927ee0af681ae77e0d7672b956dfb8b6c705dbfe106",
+        "affectsGlobalScope": false
+      },
+      "../../../node_modules/@types/webpack-sources/lib/ReplaceSource.d.ts": {
+        "version": "f772b188b943549b5c5eb803133314b8aa7689eced80eed0b70e2f30ca07ab9c",
+        "signature": "f772b188b943549b5c5eb803133314b8aa7689eced80eed0b70e2f30ca07ab9c",
+        "affectsGlobalScope": false
+      },
+      "../../../node_modules/@types/webpack-sources/lib/SizeOnlySource.d.ts": {
+        "version": "0026b816ef05cfbf290e8585820eef0f13250438669107dfc44482bac007b14f",
+        "signature": "0026b816ef05cfbf290e8585820eef0f13250438669107dfc44482bac007b14f",
+        "affectsGlobalScope": false
+      },
+      "../../../node_modules/@types/webpack-sources/lib/SourceMapSource.d.ts": {
+        "version": "8ef5aad624890acfe0fa48230edce255f00934016d16acb8de0edac0ea5b21bb",
+        "signature": "8ef5aad624890acfe0fa48230edce255f00934016d16acb8de0edac0ea5b21bb",
+        "affectsGlobalScope": false
+      },
+      "../../../node_modules/@types/webpack-sources/lib/index.d.ts": {
+        "version": "608f7279e195a33959d62ac32f42ca201a225a4c820a872f9af8562120b2865a",
+        "signature": "608f7279e195a33959d62ac32f42ca201a225a4c820a872f9af8562120b2865a",
+        "affectsGlobalScope": false
+      },
+      "../../../node_modules/@types/webpack-sources/lib/CachedSource.d.ts": {
+        "version": "d84398556ba4595ee6be554671da142cfe964cbdebb2f0c517a10f76f2b016c0",
+        "signature": "d84398556ba4595ee6be554671da142cfe964cbdebb2f0c517a10f76f2b016c0",
+        "affectsGlobalScope": false
+      },
+      "../../../node_modules/@types/webpack-sources/index.d.ts": {
+        "version": "004efa076dda36645bc670b0daaafb83a2d10ef60b6c6ed1cb39168d7e7fbfa8",
+        "signature": "004efa076dda36645bc670b0daaafb83a2d10ef60b6c6ed1cb39168d7e7fbfa8",
+        "affectsGlobalScope": false
+      },
+      "../../../node_modules/@types/webpack/index.d.ts": {
+        "version": "27f45c2a68dea7658525db6c172d367a0455049b0f70fab2ec4bfd9f38ea467d",
+        "signature": "27f45c2a68dea7658525db6c172d367a0455049b0f70fab2ec4bfd9f38ea467d",
         "affectsGlobalScope": false
       },
       "../../../node_modules/@types/yargs-parser/index.d.ts": {
@@ -645,18 +770,13 @@
         "version": "587e091276e4676b63121333f417206cd84cadf91b09949303431920d19bc04f",
         "signature": "587e091276e4676b63121333f417206cd84cadf91b09949303431920d19bc04f",
         "affectsGlobalScope": false
-      },
-      "../../../node_modules/@types/yauzl/index.d.ts": {
-        "version": "3845d3b64286c12c60d39fc90ac1cc5e47cbc951530658d2567d578b2faa1f26",
-        "signature": "3845d3b64286c12c60d39fc90ac1cc5e47cbc951530658d2567d578b2faa1f26",
-        "affectsGlobalScope": false
       }
     },
     "options": {
       "incremental": true,
       "target": 99,
       "module": 99,
-      "jsx": 1,
+      "jsx": 4,
       "declaration": true,
       "declarationMap": true,
       "sourceMap": true,
@@ -667,7 +787,6 @@
       "skipLibCheck": true,
       "forceConsistentCasingInFileNames": true,
       "project": "../tsconfig.json",
-      "watch": true,
       "configFilePath": "../tsconfig.json"
     },
     "referencedMap": {
@@ -691,14 +810,15 @@
       "../../../node_modules/@types/babel__traverse/index.d.ts": [
         "../../../node_modules/@babel/types/lib/index.d.ts"
       ],
-      "../../../node_modules/@types/cacheable-request/index.d.ts": [
-        "../../../node_modules/@types/http-cache-semantics/index.d.ts",
-        "../../../node_modules/@types/keyv/index.d.ts",
+      "../../../node_modules/@types/eslint/index.d.ts": [
+        "../../../node_modules/@types/eslint/helpers.d.ts",
+        "../../../node_modules/@types/estree/index.d.ts",
+        "../../../node_modules/@types/json-schema/index.d.ts"
+      ],
+      "../../../node_modules/@types/glob/index.d.ts": [
+        "../../../node_modules/@types/minimatch/index.d.ts",
         "../../../node_modules/@types/node/events.d.ts",
-        "../../../node_modules/@types/node/http.d.ts",
-        "../../../node_modules/@types/node/index.d.ts",
-        "../../../node_modules/@types/node/url.d.ts",
-        "../../../node_modules/@types/responselike/index.d.ts"
+        "../../../node_modules/@types/node/index.d.ts"
       ],
       "../../../node_modules/@types/graceful-fs/index.d.ts": [
         "../../../node_modules/@types/node/fs.d.ts",
@@ -710,9 +830,9 @@
       "../../../node_modules/@types/istanbul-reports/index.d.ts": [
         "../../../node_modules/@types/istanbul-lib-report/index.d.ts"
       ],
-      "../../../node_modules/@types/keyv/index.d.ts": [
-        "../../../node_modules/@types/node/events.d.ts",
-        "../../../node_modules/@types/node/index.d.ts"
+      "../../../node_modules/@types/jest/index.d.ts": [
+        "../../../node_modules/jest-diff/build/index.d.ts",
+        "../../../node_modules/pretty-format/build/index.d.ts"
       ],
       "../../../node_modules/@types/node/base.d.ts": [
         "../../../node_modules/@types/node/assert.d.ts",
@@ -881,19 +1001,6 @@
       "../../../node_modules/@types/node/zlib.d.ts": [
         "../../../node_modules/@types/node/stream.d.ts"
       ],
-      "../../../node_modules/@types/puppeteer-core/index.d.ts": [
-        "../../../node_modules/@types/puppeteer/index.d.ts"
-      ],
-      "../../../node_modules/@types/puppeteer/index.d.ts": [
-        "../../../node_modules/@types/node/child_process.d.ts",
-        "../../../node_modules/@types/node/events.d.ts",
-        "../../../node_modules/@types/node/index.d.ts",
-        "../../../node_modules/@types/puppeteer/DeviceDescriptors.d.ts",
-        "../../../node_modules/@types/puppeteer/Errors.d.ts"
-      ],
-      "../../../node_modules/@types/react-dom/index.d.ts": [
-        "../../../node_modules/@types/react/index.d.ts"
-      ],
       "../../../node_modules/@types/react/index.d.ts": [
         "../../../node_modules/@types/prop-types/index.d.ts",
         "../../../node_modules/@types/react/global.d.ts",
@@ -902,29 +1009,113 @@
       "../../../node_modules/@types/resolve/index.d.ts": [
         "../../../node_modules/@types/node/index.d.ts"
       ],
-      "../../../node_modules/@types/responselike/index.d.ts": [
-        "../../../node_modules/@types/node/http.d.ts",
-        "../../../node_modules/@types/node/index.d.ts",
-        "../../../node_modules/@types/node/stream.d.ts"
+      "../../../node_modules/@types/testing-library__jest-dom/index.d.ts": [
+        "../../../node_modules/@types/jest/index.d.ts"
       ],
-      "../../../node_modules/@types/ws/index.d.ts": [
-        "../../../node_modules/@types/node/events.d.ts",
-        "../../../node_modules/@types/node/http.d.ts",
-        "../../../node_modules/@types/node/https.d.ts",
+      "../../../node_modules/@types/uglify-js/index.d.ts": [
+        "../../../node_modules/source-map/source-map.d.ts"
+      ],
+      "../../../node_modules/@types/webpack-sources/index.d.ts": [
         "../../../node_modules/@types/node/index.d.ts",
-        "../../../node_modules/@types/node/net.d.ts",
-        "../../../node_modules/@types/node/stream.d.ts",
-        "../../../node_modules/@types/node/tls.d.ts",
-        "../../../node_modules/@types/node/url.d.ts",
-        "../../../node_modules/@types/node/zlib.d.ts"
+        "../../../node_modules/@types/webpack-sources/lib/CachedSource.d.ts",
+        "../../../node_modules/@types/webpack-sources/lib/CompatSource.d.ts",
+        "../../../node_modules/@types/webpack-sources/lib/ConcatSource.d.ts",
+        "../../../node_modules/@types/webpack-sources/lib/OriginalSource.d.ts",
+        "../../../node_modules/@types/webpack-sources/lib/PrefixSource.d.ts",
+        "../../../node_modules/@types/webpack-sources/lib/RawSource.d.ts",
+        "../../../node_modules/@types/webpack-sources/lib/ReplaceSource.d.ts",
+        "../../../node_modules/@types/webpack-sources/lib/SizeOnlySource.d.ts",
+        "../../../node_modules/@types/webpack-sources/lib/Source.d.ts",
+        "../../../node_modules/@types/webpack-sources/lib/SourceMapSource.d.ts",
+        "../../../node_modules/@types/webpack-sources/lib/index.d.ts"
+      ],
+      "../../../node_modules/@types/webpack-sources/lib/CachedSource.d.ts": [
+        "../../../node_modules/@types/webpack-sources/lib/Source.d.ts",
+        "../../../node_modules/@types/webpack-sources/lib/index.d.ts",
+        "../../../node_modules/@types/webpack-sources/node_modules/source-map/source-map.d.ts"
+      ],
+      "../../../node_modules/@types/webpack-sources/lib/CompatSource.d.ts": [
+        "../../../node_modules/@types/webpack-sources/lib/Source.d.ts",
+        "../../../node_modules/@types/webpack-sources/lib/index.d.ts"
+      ],
+      "../../../node_modules/@types/webpack-sources/lib/ConcatSource.d.ts": [
+        "../../../node_modules/@types/source-list-map/index.d.ts",
+        "../../../node_modules/@types/webpack-sources/lib/Source.d.ts",
+        "../../../node_modules/@types/webpack-sources/lib/index.d.ts",
+        "../../../node_modules/@types/webpack-sources/node_modules/source-map/source-map.d.ts"
+      ],
+      "../../../node_modules/@types/webpack-sources/lib/OriginalSource.d.ts": [
+        "../../../node_modules/@types/source-list-map/index.d.ts",
+        "../../../node_modules/@types/webpack-sources/lib/Source.d.ts",
+        "../../../node_modules/@types/webpack-sources/lib/index.d.ts",
+        "../../../node_modules/@types/webpack-sources/node_modules/source-map/source-map.d.ts"
+      ],
+      "../../../node_modules/@types/webpack-sources/lib/PrefixSource.d.ts": [
+        "../../../node_modules/@types/webpack-sources/lib/Source.d.ts",
+        "../../../node_modules/@types/webpack-sources/lib/index.d.ts"
+      ],
+      "../../../node_modules/@types/webpack-sources/lib/RawSource.d.ts": [
+        "../../../node_modules/@types/webpack-sources/lib/Source.d.ts",
+        "../../../node_modules/@types/webpack-sources/lib/index.d.ts"
+      ],
+      "../../../node_modules/@types/webpack-sources/lib/ReplaceSource.d.ts": [
+        "../../../node_modules/@types/webpack-sources/lib/Source.d.ts",
+        "../../../node_modules/@types/webpack-sources/lib/index.d.ts"
+      ],
+      "../../../node_modules/@types/webpack-sources/lib/SizeOnlySource.d.ts": [
+        "../../../node_modules/@types/webpack-sources/lib/Source.d.ts"
+      ],
+      "../../../node_modules/@types/webpack-sources/lib/Source.d.ts": [
+        "../../../node_modules/@types/node/crypto.d.ts",
+        "../../../node_modules/@types/webpack-sources/lib/index.d.ts",
+        "../../../node_modules/@types/webpack-sources/node_modules/source-map/source-map.d.ts"
+      ],
+      "../../../node_modules/@types/webpack-sources/lib/SourceMapSource.d.ts": [
+        "../../../node_modules/@types/webpack-sources/lib/Source.d.ts",
+        "../../../node_modules/@types/webpack-sources/lib/index.d.ts",
+        "../../../node_modules/@types/webpack-sources/node_modules/source-map/source-map.d.ts"
+      ],
+      "../../../node_modules/@types/webpack-sources/lib/index.d.ts": [
+        "../../../node_modules/@types/webpack-sources/lib/CachedSource.d.ts",
+        "../../../node_modules/@types/webpack-sources/lib/CompatSource.d.ts",
+        "../../../node_modules/@types/webpack-sources/lib/ConcatSource.d.ts",
+        "../../../node_modules/@types/webpack-sources/lib/OriginalSource.d.ts",
+        "../../../node_modules/@types/webpack-sources/lib/PrefixSource.d.ts",
+        "../../../node_modules/@types/webpack-sources/lib/RawSource.d.ts",
+        "../../../node_modules/@types/webpack-sources/lib/ReplaceSource.d.ts",
+        "../../../node_modules/@types/webpack-sources/lib/SizeOnlySource.d.ts",
+        "../../../node_modules/@types/webpack-sources/lib/Source.d.ts",
+        "../../../node_modules/@types/webpack-sources/lib/SourceMapSource.d.ts",
+        "../../../node_modules/@types/webpack-sources/node_modules/source-map/source-map.d.ts"
+      ],
+      "../../../node_modules/@types/webpack/index.d.ts": [
+        "../../../node_modules/@types/anymatch/index.d.ts",
+        "../../../node_modules/@types/node/crypto.d.ts",
+        "../../../node_modules/@types/node/index.d.ts",
+        "../../../node_modules/@types/tapable/index.d.ts",
+        "../../../node_modules/@types/uglify-js/index.d.ts",
+        "../../../node_modules/@types/webpack-sources/index.d.ts",
+        "../../../node_modules/source-map/source-map.d.ts"
       ],
       "../../../node_modules/@types/yargs/index.d.ts": [
         "../../../node_modules/@types/yargs-parser/index.d.ts"
       ],
-      "../../../node_modules/@types/yauzl/index.d.ts": [
-        "../../../node_modules/@types/node/events.d.ts",
-        "../../../node_modules/@types/node/index.d.ts",
-        "../../../node_modules/@types/node/stream.d.ts"
+      "../../../node_modules/jest-diff/build/diffLines.d.ts": [
+        "../../../node_modules/jest-diff/build/cleanupSemantic.d.ts",
+        "../../../node_modules/jest-diff/build/types.d.ts"
+      ],
+      "../../../node_modules/jest-diff/build/index.d.ts": [
+        "../../../node_modules/jest-diff/build/cleanupSemantic.d.ts",
+        "../../../node_modules/jest-diff/build/diffLines.d.ts",
+        "../../../node_modules/jest-diff/build/printDiffs.d.ts",
+        "../../../node_modules/jest-diff/build/types.d.ts"
+      ],
+      "../../../node_modules/jest-diff/build/printDiffs.d.ts": [
+        "../../../node_modules/jest-diff/build/cleanupSemantic.d.ts",
+        "../../../node_modules/jest-diff/build/types.d.ts"
+      ],
+      "../../../node_modules/pretty-format/build/index.d.ts": [
+        "../../../node_modules/pretty-format/build/types.d.ts"
       ],
       "../index.tsx": [
         "../../../node_modules/@types/react/index.d.ts"
@@ -951,14 +1142,15 @@
       "../../../node_modules/@types/babel__traverse/index.d.ts": [
         "../../../node_modules/@babel/types/lib/index.d.ts"
       ],
-      "../../../node_modules/@types/cacheable-request/index.d.ts": [
-        "../../../node_modules/@types/http-cache-semantics/index.d.ts",
-        "../../../node_modules/@types/keyv/index.d.ts",
+      "../../../node_modules/@types/eslint/index.d.ts": [
+        "../../../node_modules/@types/eslint/helpers.d.ts",
+        "../../../node_modules/@types/estree/index.d.ts",
+        "../../../node_modules/@types/json-schema/index.d.ts"
+      ],
+      "../../../node_modules/@types/glob/index.d.ts": [
+        "../../../node_modules/@types/minimatch/index.d.ts",
         "../../../node_modules/@types/node/events.d.ts",
-        "../../../node_modules/@types/node/http.d.ts",
-        "../../../node_modules/@types/node/index.d.ts",
-        "../../../node_modules/@types/node/url.d.ts",
-        "../../../node_modules/@types/responselike/index.d.ts"
+        "../../../node_modules/@types/node/index.d.ts"
       ],
       "../../../node_modules/@types/graceful-fs/index.d.ts": [
         "../../../node_modules/@types/node/fs.d.ts",
@@ -970,9 +1162,9 @@
       "../../../node_modules/@types/istanbul-reports/index.d.ts": [
         "../../../node_modules/@types/istanbul-lib-report/index.d.ts"
       ],
-      "../../../node_modules/@types/keyv/index.d.ts": [
-        "../../../node_modules/@types/node/events.d.ts",
-        "../../../node_modules/@types/node/index.d.ts"
+      "../../../node_modules/@types/jest/index.d.ts": [
+        "../../../node_modules/jest-diff/build/index.d.ts",
+        "../../../node_modules/pretty-format/build/index.d.ts"
       ],
       "../../../node_modules/@types/node/base.d.ts": [
         "../../../node_modules/@types/node/assert.d.ts",
@@ -1141,19 +1333,6 @@
       "../../../node_modules/@types/node/zlib.d.ts": [
         "../../../node_modules/@types/node/stream.d.ts"
       ],
-      "../../../node_modules/@types/puppeteer-core/index.d.ts": [
-        "../../../node_modules/@types/puppeteer/index.d.ts"
-      ],
-      "../../../node_modules/@types/puppeteer/index.d.ts": [
-        "../../../node_modules/@types/node/child_process.d.ts",
-        "../../../node_modules/@types/node/events.d.ts",
-        "../../../node_modules/@types/node/index.d.ts",
-        "../../../node_modules/@types/puppeteer/DeviceDescriptors.d.ts",
-        "../../../node_modules/@types/puppeteer/Errors.d.ts"
-      ],
-      "../../../node_modules/@types/react-dom/index.d.ts": [
-        "../../../node_modules/@types/react/index.d.ts"
-      ],
       "../../../node_modules/@types/react/index.d.ts": [
         "../../../node_modules/@types/prop-types/index.d.ts",
         "../../../node_modules/@types/react/global.d.ts",
@@ -1162,29 +1341,113 @@
       "../../../node_modules/@types/resolve/index.d.ts": [
         "../../../node_modules/@types/node/index.d.ts"
       ],
-      "../../../node_modules/@types/responselike/index.d.ts": [
-        "../../../node_modules/@types/node/http.d.ts",
-        "../../../node_modules/@types/node/index.d.ts",
-        "../../../node_modules/@types/node/stream.d.ts"
+      "../../../node_modules/@types/testing-library__jest-dom/index.d.ts": [
+        "../../../node_modules/@types/jest/index.d.ts"
       ],
-      "../../../node_modules/@types/ws/index.d.ts": [
-        "../../../node_modules/@types/node/events.d.ts",
-        "../../../node_modules/@types/node/http.d.ts",
-        "../../../node_modules/@types/node/https.d.ts",
+      "../../../node_modules/@types/uglify-js/index.d.ts": [
+        "../../../node_modules/source-map/source-map.d.ts"
+      ],
+      "../../../node_modules/@types/webpack-sources/index.d.ts": [
         "../../../node_modules/@types/node/index.d.ts",
-        "../../../node_modules/@types/node/net.d.ts",
-        "../../../node_modules/@types/node/stream.d.ts",
-        "../../../node_modules/@types/node/tls.d.ts",
-        "../../../node_modules/@types/node/url.d.ts",
-        "../../../node_modules/@types/node/zlib.d.ts"
+        "../../../node_modules/@types/webpack-sources/lib/CachedSource.d.ts",
+        "../../../node_modules/@types/webpack-sources/lib/CompatSource.d.ts",
+        "../../../node_modules/@types/webpack-sources/lib/ConcatSource.d.ts",
+        "../../../node_modules/@types/webpack-sources/lib/OriginalSource.d.ts",
+        "../../../node_modules/@types/webpack-sources/lib/PrefixSource.d.ts",
+        "../../../node_modules/@types/webpack-sources/lib/RawSource.d.ts",
+        "../../../node_modules/@types/webpack-sources/lib/ReplaceSource.d.ts",
+        "../../../node_modules/@types/webpack-sources/lib/SizeOnlySource.d.ts",
+        "../../../node_modules/@types/webpack-sources/lib/Source.d.ts",
+        "../../../node_modules/@types/webpack-sources/lib/SourceMapSource.d.ts",
+        "../../../node_modules/@types/webpack-sources/lib/index.d.ts"
+      ],
+      "../../../node_modules/@types/webpack-sources/lib/CachedSource.d.ts": [
+        "../../../node_modules/@types/webpack-sources/lib/Source.d.ts",
+        "../../../node_modules/@types/webpack-sources/lib/index.d.ts",
+        "../../../node_modules/@types/webpack-sources/node_modules/source-map/source-map.d.ts"
+      ],
+      "../../../node_modules/@types/webpack-sources/lib/CompatSource.d.ts": [
+        "../../../node_modules/@types/webpack-sources/lib/Source.d.ts",
+        "../../../node_modules/@types/webpack-sources/lib/index.d.ts"
+      ],
+      "../../../node_modules/@types/webpack-sources/lib/ConcatSource.d.ts": [
+        "../../../node_modules/@types/source-list-map/index.d.ts",
+        "../../../node_modules/@types/webpack-sources/lib/Source.d.ts",
+        "../../../node_modules/@types/webpack-sources/lib/index.d.ts",
+        "../../../node_modules/@types/webpack-sources/node_modules/source-map/source-map.d.ts"
+      ],
+      "../../../node_modules/@types/webpack-sources/lib/OriginalSource.d.ts": [
+        "../../../node_modules/@types/source-list-map/index.d.ts",
+        "../../../node_modules/@types/webpack-sources/lib/Source.d.ts",
+        "../../../node_modules/@types/webpack-sources/lib/index.d.ts",
+        "../../../node_modules/@types/webpack-sources/node_modules/source-map/source-map.d.ts"
+      ],
+      "../../../node_modules/@types/webpack-sources/lib/PrefixSource.d.ts": [
+        "../../../node_modules/@types/webpack-sources/lib/Source.d.ts",
+        "../../../node_modules/@types/webpack-sources/lib/index.d.ts"
+      ],
+      "../../../node_modules/@types/webpack-sources/lib/RawSource.d.ts": [
+        "../../../node_modules/@types/webpack-sources/lib/Source.d.ts",
+        "../../../node_modules/@types/webpack-sources/lib/index.d.ts"
+      ],
+      "../../../node_modules/@types/webpack-sources/lib/ReplaceSource.d.ts": [
+        "../../../node_modules/@types/webpack-sources/lib/Source.d.ts",
+        "../../../node_modules/@types/webpack-sources/lib/index.d.ts"
+      ],
+      "../../../node_modules/@types/webpack-sources/lib/SizeOnlySource.d.ts": [
+        "../../../node_modules/@types/webpack-sources/lib/Source.d.ts"
+      ],
+      "../../../node_modules/@types/webpack-sources/lib/Source.d.ts": [
+        "../../../node_modules/@types/node/crypto.d.ts",
+        "../../../node_modules/@types/webpack-sources/lib/index.d.ts",
+        "../../../node_modules/@types/webpack-sources/node_modules/source-map/source-map.d.ts"
+      ],
+      "../../../node_modules/@types/webpack-sources/lib/SourceMapSource.d.ts": [
+        "../../../node_modules/@types/webpack-sources/lib/Source.d.ts",
+        "../../../node_modules/@types/webpack-sources/lib/index.d.ts",
+        "../../../node_modules/@types/webpack-sources/node_modules/source-map/source-map.d.ts"
+      ],
+      "../../../node_modules/@types/webpack-sources/lib/index.d.ts": [
+        "../../../node_modules/@types/webpack-sources/lib/CachedSource.d.ts",
+        "../../../node_modules/@types/webpack-sources/lib/CompatSource.d.ts",
+        "../../../node_modules/@types/webpack-sources/lib/ConcatSource.d.ts",
+        "../../../node_modules/@types/webpack-sources/lib/OriginalSource.d.ts",
+        "../../../node_modules/@types/webpack-sources/lib/PrefixSource.d.ts",
+        "../../../node_modules/@types/webpack-sources/lib/RawSource.d.ts",
+        "../../../node_modules/@types/webpack-sources/lib/ReplaceSource.d.ts",
+        "../../../node_modules/@types/webpack-sources/lib/SizeOnlySource.d.ts",
+        "../../../node_modules/@types/webpack-sources/lib/Source.d.ts",
+        "../../../node_modules/@types/webpack-sources/lib/SourceMapSource.d.ts",
+        "../../../node_modules/@types/webpack-sources/node_modules/source-map/source-map.d.ts"
+      ],
+      "../../../node_modules/@types/webpack/index.d.ts": [
+        "../../../node_modules/@types/anymatch/index.d.ts",
+        "../../../node_modules/@types/node/crypto.d.ts",
+        "../../../node_modules/@types/node/index.d.ts",
+        "../../../node_modules/@types/tapable/index.d.ts",
+        "../../../node_modules/@types/uglify-js/index.d.ts",
+        "../../../node_modules/@types/webpack-sources/index.d.ts",
+        "../../../node_modules/source-map/source-map.d.ts"
       ],
       "../../../node_modules/@types/yargs/index.d.ts": [
         "../../../node_modules/@types/yargs-parser/index.d.ts"
       ],
-      "../../../node_modules/@types/yauzl/index.d.ts": [
-        "../../../node_modules/@types/node/events.d.ts",
-        "../../../node_modules/@types/node/index.d.ts",
-        "../../../node_modules/@types/node/stream.d.ts"
+      "../../../node_modules/jest-diff/build/diffLines.d.ts": [
+        "../../../node_modules/jest-diff/build/cleanupSemantic.d.ts",
+        "../../../node_modules/jest-diff/build/types.d.ts"
+      ],
+      "../../../node_modules/jest-diff/build/index.d.ts": [
+        "../../../node_modules/jest-diff/build/cleanupSemantic.d.ts",
+        "../../../node_modules/jest-diff/build/diffLines.d.ts",
+        "../../../node_modules/jest-diff/build/printDiffs.d.ts",
+        "../../../node_modules/jest-diff/build/types.d.ts"
+      ],
+      "../../../node_modules/jest-diff/build/printDiffs.d.ts": [
+        "../../../node_modules/jest-diff/build/cleanupSemantic.d.ts",
+        "../../../node_modules/jest-diff/build/types.d.ts"
+      ],
+      "../../../node_modules/pretty-format/build/index.d.ts": [
+        "../../../node_modules/pretty-format/build/types.d.ts"
       ],
       "../index.tsx": [
         "../../../node_modules/@types/react/index.d.ts"
@@ -1193,22 +1456,25 @@
     "semanticDiagnosticsPerFile": [
       "../../../node_modules/@babel/parser/typings/babel-parser.d.ts",
       "../../../node_modules/@babel/types/lib/index.d.ts",
+      "../../../node_modules/@types/anymatch/index.d.ts",
       "../../../node_modules/@types/aria-query/index.d.ts",
-      "../../../node_modules/@types/babel__code-frame/index.d.ts",
       "../../../node_modules/@types/babel__core/index.d.ts",
       "../../../node_modules/@types/babel__generator/index.d.ts",
       "../../../node_modules/@types/babel__template/index.d.ts",
       "../../../node_modules/@types/babel__traverse/index.d.ts",
-      "../../../node_modules/@types/cacheable-request/index.d.ts",
-      "../../../node_modules/@types/chai/index.d.ts",
+      "../../../node_modules/@types/eslint/helpers.d.ts",
+      "../../../node_modules/@types/eslint/index.d.ts",
       "../../../node_modules/@types/estree/index.d.ts",
+      "../../../node_modules/@types/glob/index.d.ts",
       "../../../node_modules/@types/graceful-fs/index.d.ts",
-      "../../../node_modules/@types/http-cache-semantics/index.d.ts",
+      "../../../node_modules/@types/html-minifier-terser/index.d.ts",
       "../../../node_modules/@types/istanbul-lib-coverage/index.d.ts",
       "../../../node_modules/@types/istanbul-lib-report/index.d.ts",
       "../../../node_modules/@types/istanbul-reports/index.d.ts",
-      "../../../node_modules/@types/keyv/index.d.ts",
-      "../../../node_modules/@types/mocha/index.d.ts",
+      "../../../node_modules/@types/jest/index.d.ts",
+      "../../../node_modules/@types/json-schema/index.d.ts",
+      "../../../node_modules/@types/json5/index.d.ts",
+      "../../../node_modules/@types/minimatch/index.d.ts",
       "../../../node_modules/@types/node/assert.d.ts",
       "../../../node_modules/@types/node/async_hooks.d.ts",
       "../../../node_modules/@types/node/base.d.ts",
@@ -1256,23 +1522,44 @@
       "../../../node_modules/@types/node/wasi.d.ts",
       "../../../node_modules/@types/node/worker_threads.d.ts",
       "../../../node_modules/@types/node/zlib.d.ts",
+      "../../../node_modules/@types/normalize-package-data/index.d.ts",
       "../../../node_modules/@types/parse-json/index.d.ts",
+      "../../../node_modules/@types/prettier/index.d.ts",
       "../../../node_modules/@types/prop-types/index.d.ts",
-      "../../../node_modules/@types/puppeteer-core/index.d.ts",
-      "../../../node_modules/@types/puppeteer/DeviceDescriptors.d.ts",
-      "../../../node_modules/@types/puppeteer/Errors.d.ts",
-      "../../../node_modules/@types/puppeteer/index.d.ts",
-      "../../../node_modules/@types/react-dom/index.d.ts",
+      "../../../node_modules/@types/q/index.d.ts",
       "../../../node_modules/@types/react/global.d.ts",
       "../../../node_modules/@types/react/index.d.ts",
       "../../../node_modules/@types/resolve/index.d.ts",
-      "../../../node_modules/@types/responselike/index.d.ts",
-      "../../../node_modules/@types/snowpack-env/index.d.ts",
-      "../../../node_modules/@types/ws/index.d.ts",
+      "../../../node_modules/@types/source-list-map/index.d.ts",
+      "../../../node_modules/@types/stack-utils/index.d.ts",
+      "../../../node_modules/@types/tapable/index.d.ts",
+      "../../../node_modules/@types/testing-library__jest-dom/index.d.ts",
+      "../../../node_modules/@types/uglify-js/index.d.ts",
+      "../../../node_modules/@types/webpack-sources/index.d.ts",
+      "../../../node_modules/@types/webpack-sources/lib/CachedSource.d.ts",
+      "../../../node_modules/@types/webpack-sources/lib/CompatSource.d.ts",
+      "../../../node_modules/@types/webpack-sources/lib/ConcatSource.d.ts",
+      "../../../node_modules/@types/webpack-sources/lib/OriginalSource.d.ts",
+      "../../../node_modules/@types/webpack-sources/lib/PrefixSource.d.ts",
+      "../../../node_modules/@types/webpack-sources/lib/RawSource.d.ts",
+      "../../../node_modules/@types/webpack-sources/lib/ReplaceSource.d.ts",
+      "../../../node_modules/@types/webpack-sources/lib/SizeOnlySource.d.ts",
+      "../../../node_modules/@types/webpack-sources/lib/Source.d.ts",
+      "../../../node_modules/@types/webpack-sources/lib/SourceMapSource.d.ts",
+      "../../../node_modules/@types/webpack-sources/lib/index.d.ts",
+      "../../../node_modules/@types/webpack-sources/node_modules/source-map/source-map.d.ts",
+      "../../../node_modules/@types/webpack/index.d.ts",
       "../../../node_modules/@types/yargs-parser/index.d.ts",
       "../../../node_modules/@types/yargs/index.d.ts",
-      "../../../node_modules/@types/yauzl/index.d.ts",
       "../../../node_modules/csstype/index.d.ts",
+      "../../../node_modules/jest-diff/build/cleanupSemantic.d.ts",
+      "../../../node_modules/jest-diff/build/diffLines.d.ts",
+      "../../../node_modules/jest-diff/build/index.d.ts",
+      "../../../node_modules/jest-diff/build/printDiffs.d.ts",
+      "../../../node_modules/jest-diff/build/types.d.ts",
+      "../../../node_modules/pretty-format/build/index.d.ts",
+      "../../../node_modules/pretty-format/build/types.d.ts",
+      "../../../node_modules/source-map/source-map.d.ts",
       "../../../node_modules/typescript/lib/lib.dom.d.ts",
       "../../../node_modules/typescript/lib/lib.dom.iterable.d.ts",
       "../../../node_modules/typescript/lib/lib.es2015.collection.d.ts",
@@ -1323,5 +1610,5 @@
       "../index.tsx"
     ]
   },
-  "version": "4.1.0-dev.20201023"
+  "version": "4.1.0-dev.20201025"
 }

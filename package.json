@@ -2,6 +2,7 @@
   "name": "use-simple-login",
   "version": "1.0.0",
   "description": "",
+  "private": true,
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -10,8 +11,8 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {},
-  "dependencies": {},
   "workspaces": [
-    "packages/*"
+    "packages/core",
+    "packages/demo"
   ]
 }

@@ -1,3 +1,4 @@
+import { jsx as _jsx } from "react/jsx-runtime";
 import * as React from "react";
 function buildAuthenticationContext({ loginFn }) {
     function reducer(state, action) {
@@ -56,9 +57,7 @@ function buildAuthenticationContext({ loginFn }) {
             login: login,
         };
         const [state, dispatch] = React.useReducer(reducer, initialState);
-        return (<AuthenticationContext.Provider value={state}>
-        {children}
-      </AuthenticationContext.Provider>);
+        return (_jsx(AuthenticationContext.Provider, Object.assign({ value: state }, { children: children }), void 0));
     };
     const useAuthentication = () => {
         const context = React.useContext(AuthenticationContext);
@@ -70,4 +69,4 @@ function buildAuthenticationContext({ loginFn }) {
     return { AuthenticationProvider, useAuthentication };
 }
 export { buildAuthenticationContext };
-//# sourceMappingURL=index.jsx.map
+//# sourceMappingURL=index.js.map

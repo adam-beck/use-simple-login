@@ -1,7 +1,4 @@
-import {
-  buildAuthenticationContext,
-  LoginFunction,
-} from '@adam-beck/use-simple-login';
+import { buildAuthenticationContext, LoginCredentials } from '@adam-beck/use-simple-login';
 
 interface User {
   username: string;
@@ -9,23 +6,23 @@ interface User {
   role: string;
 }
 
-const loginFn: LoginFunction<User> = (credentials) => {
-  return new Promise((resolve) => {
+async function mockGetUser(credentials: LoginCredentials) {
+  return new Promise<User>((resolve) => {
     setTimeout(() => {
       resolve({
         username: credentials.username,
-        token: 'abc123',
+        token: 'a1b2c3',
         role: 'admin',
       });
     }, 2000);
   });
-};
+}
 
 const {
   AuthenticationProvider,
   useAuthentication,
 } = buildAuthenticationContext({
-  loginFn,
+  loginFn: mockGetUser,
 });
 
 export { AuthenticationProvider, useAuthentication };

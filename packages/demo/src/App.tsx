@@ -8,8 +8,12 @@ import { Nested } from './Nested';
 interface AppProps {}
 
 function App({}: AppProps) {
+  const onLogin = () => {
+    alert('LOGGED IN!');
+  };
+
   return (
-    <AuthenticationProvider value={{}}>
+    <AuthenticationProvider value={{ onLogin }}>
       <div className="App">
         <h1>Status</h1>
         <Nested />
